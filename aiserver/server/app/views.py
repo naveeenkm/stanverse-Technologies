@@ -33,7 +33,7 @@ from django.core.mail import send_mail
 import google.generativeai as genai
 
 
-uri = "mongodb+srv://kmnaveen1110:Naveen%40123@cluster0.kqdhrnt.mongodb.net/techmiyaai?retryWrites=true&w=majority"
+uri = "add mongo atlas cluster  link  to more info check youtube for creating cluster in mongo atlas"
     
   
 client = MongoClient(uri)
@@ -397,6 +397,7 @@ def loginUser(request):
         print(f"Login error: {str(e)}")
         return Response({"error_message": "Login failed"}, 
                       status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
 
 
 
